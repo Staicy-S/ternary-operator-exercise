@@ -3,9 +3,11 @@ const person = {
   job: "Coach",
 };
 let isRalfCoach;
-if (person.job === "Coach") {
+if (person.job === "Dancer") {
   isRalfCoach = true;
 } else {
   isRalfCoach = false;
 }
-console.log(isRalfCoach);
+console.log(isRalfCoach); // This console.log results in yellow
+
+console.log(isRalfCoach ? "true" : "false"); // this is white
